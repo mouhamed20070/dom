@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="shoping.css"> <!-- Add the correct path to the shopping.css file -->
+    <link rel="stylesheet" href="path_to_font_awesome_css"> <!-- Add the correct path to the Font Awesome CSS file -->
+</head>
+<body>
+    <div class="card">
+        <div class="row">
+            <div class="col-md-8 cart"> <!-- Added the missing closing angle bracket -->
+                <div class="title">
+                    <div class="row">
+                        <div class="col">
+                            <h4>shopping cart</h4> <!-- Removed the extra closing </b> tag -->
+                        </div>
+                        <div class="col align-self-center text-right text-muted">3 items</div> <!-- Fixed typo "item" -->
+                    </div>
+                </div>
+                <div class="row border-top border-bottom item"> <!-- Removed the dot from the ID -->
+                    <div class="row main align-items-center"> <!-- Fixed typo "aling-item-center" to "align-items-center" -->
+                        <div class="col-2">
+                            <i class="fas fa-heart"></i>
+                            <img class="dress" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ae8a96c0-cb6f-4ad8-a7a0-5acd4a48713a/d5avtyo-aa18bdec-8021-4cd0-a1a0-10a431693acf.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2FlOGE5NmMwLWNiNmYtNGFkOC1hN2EwLTVhY2Q0YTQ4NzEzYVwvZDVhdnR5by1hYTE4YmRlYy04MDIxLTRjZDAtYTFhMC0xMGE0MzE2OTNhY2YucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.urciujOyUwvE_k0t2nQujfHIioFDmp3TtWzmKuGNuWY" alt=""> <!-- Add the image path to "src" and add "alt" attribute -->
+                        </div>
+                        <div class="col">
+                            <div class="row text-muted">dress</div>
+                            <div class="row">cotton palm printed</div>
+                        </div>
+                        <div class="col">
+                            <button class="minus-btn">-</button>
+                            <input class="quantity" type="text" value="0"/>
+                            <button class="plus-btn">+</button>
+                        </div>
+                        <div class="col">
+                            <p class="price">55.00 DT</p>
+                            <button class="delete-btn">&#10005;</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row item"> <!-- Removed the dot from the ID -->
+                    <div class="row main align-items-center"> <!-- Fixed typo "aling-item-center" to "align-items-center" -->
+                        <div class="col-2">
+                            <i class="fas fa-heart"></i> <!-- Removed the extra dash in the class name -->
+                            <img class="img-fluid" src="https://www.pngall.com/wp-content/uploads/4/Skirt-PNG-HD-Image.png" alt=""> <!-- Add the image path to "src" and add "alt" attribute -->
+                        </div>
+                        <div class="col">
+                            <div class="row text-muted">skirt</div>
+                            <div class="row">log floral skirt</div>
+                        </div>
+                        <div class="col">
+                            <div class="col">
+                                <button class="minus-btn">-</button>
+                                <input class="quantity" type="text" value="0">
+                                <button class="plus-btn">+</button>
+                            </div>
+                            <p class="price">30.00 DT</p>
+                            <button class="delete-btn">&#10005;</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Include the script after the HTML content -->
+    <script src="shoping.js"></script> <!-- Correct the file name to "shopping.js" -->
+</body>
+</html>
+
